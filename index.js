@@ -24,8 +24,8 @@
 
 // Object Start
 
-const name = 'WFM';
-const age = 30;
+// const name = 'WFM';
+// const age = 30;
 
 // ES5
 // const obj = {
@@ -39,22 +39,39 @@ const age = 30;
 // const obj = {name,age};
 // console.log(obj);
 
+// const createPerson = (name, surname, fieldName, fieldPostfix) => {
+//     const fullname = name + ' ' + surname;
+//     return {
+//         fullname,
+//         name,
+//         surname,
+//         getJob() {
+//             return 'Front End';
+//         },
+//         [fieldName + fieldPostfix]: 100
+//     };
+// };
+//
+// const person = createPerson('Vasya', 'Petrov', 'car', '-name');
+//
+// // console.log(person.getJob());
+// console.log(person);
+
 // Object END
 
-const createPerson = (name, surname, fieldName, fieldPostfix) => {
-    const fullname = name + ' ' + surname;
-    return {
-        fullname,
-        name,
-        surname,
-        getJob() {
-            return 'Front End';
-        },
-        [fieldName + fieldPostfix]: 100
-    };
+
+// Destruct Obj
+
+/*
+let obj = {
+    name : 'Vasya1',
+    age: 30
 };
 
-const person = createPerson('Vasya', 'Petrov', 'car', '-name');
+let {name: n, age: a} = obj;
 
-// console.log(person.getJob());
-console.log(person);
+console.log(n, a);
+
+*/
+// Destruct Obj END
+
