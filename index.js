@@ -14,3 +14,8 @@
 // console.log(arrow3(10));
 
 
+const func = (a = 20) => {
+    return a;
+};
+
+console.log(func());
