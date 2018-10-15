@@ -1,21 +1,6 @@
-const array = [1,2,3,4,5,6,'some item'];
+// Set & WeakSet
 
-// for (let i=0; i < array.length; i++){
-//     console.log(array[i]);
-// }
-
-// array.forEach(function (item) {
-//     console.log(item);
-// });
+let set = new Set();
 
 
-/*
-array.forEach(item => {
-    console.log(item);
-});
-*/
 
-// ES6
-for (let item of array) {
-    console.log('Item ', item);
-}
