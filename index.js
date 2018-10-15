@@ -1,6 +1,21 @@
-let name = 'Vasiliy';
+const array = [1,2,3,4,5,6,'some item'];
 
-// let str1 = 'Hello + ' + name + ', glad to see you!';
-let str1 = `Hello ${name}, glad to see you!`;
+// for (let i=0; i < array.length; i++){
+//     console.log(array[i]);
+// }
 
-console.log(str1);
+// array.forEach(function (item) {
+//     console.log(item);
+// });
+
+
+/*
+array.forEach(item => {
+    console.log(item);
+});
+*/
+
+// ES6
+for (let item of array) {
+    console.log('Item ', item);
+}
